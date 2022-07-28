@@ -154,6 +154,14 @@ header {
   font-weight: normal;
 }
 
+.footing {
+  color: #5f5d60;
+}
+
+.footing h3 {
+  font-weight: normal;
+}
+
 .lesson {
   float: left;
   width: 25%;
@@ -213,6 +221,7 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  text-align:center;
 }
 
 .menu-icon {
@@ -221,5 +230,51 @@ footer {
   font-size: 25px;
   padding: 21px 0;
   /* Gantikan property display ke none */
-  display:none;
+  display:none !important;
 }
+
+.footer {
+  float: left;
+  width: 25%;
+}
+
+.footer-icon {
+  position: relative;
+}
+
+.footer-icon img{
+  max-width:50px;
+}
+
+.footer-icon img:hover{
+  opacity:0.6;
+}
+.footer-icon img:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.footer-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.container-footer {
+  max-width: 450px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
