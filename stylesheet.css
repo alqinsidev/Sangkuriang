@@ -84,19 +84,33 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #1363DF;
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
-.logo {
+/* .logo {
   width: 124px;
   margin-top: 20px;
-}
+} */
 
 .header-left {
   float: left;
+}
+
+.header-left a {
+  line-height: 65px;
+  font-size: 24px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-left a:hover {
+  border-bottom: 2px solid white;
 }
 
 .header-right {
@@ -115,6 +129,7 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid white;
 }
 
 /* Tambahkan CSS untuk menu-icon */
